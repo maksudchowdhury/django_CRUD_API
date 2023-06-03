@@ -1,9 +1,19 @@
-# django_CRUD_API
+## Django CRUD notepad application with API callback features
 
-<h2>This is a django notepad application which has a database where CRUD operations take place through external API calls</h2>
+<h3>This is a django notepad application which has a database where CRUD operations take place through external API calls</h3>
+
+API call paths for this application
+
+"api/getNotes/" -- to get all the notes  
+"api/getOneNote/<int:serial>" -- to get information about one single note  
+"api/addNotes/" -- send json object of the note to add that in the database  
+"api/updateNote/<str:serial>" -- send json obj in through this endpoint to update a note (put/patch) both availabe
+"api/deleteNote/<str:serial>" -- hit this url to delete a specific note
+  
+<h3>Basic Environment setup and Introduction</h3>
 
 ### Starting the pipenv shell (virtual environment)
-![image](https://github.com/maksudchowdhury/django_CRUD_API/assets/45464612/dfae7f48-32e4-4340-b47e-74d720a5a6d1)
+![image](https://github.com/maksudchowdhury/django_CRUD_API/assets/45464612/45e25108-57da-4532-99ba-733fe6dab2dd)
 
   
  ### Required packages (provided as requirements.txt) 
