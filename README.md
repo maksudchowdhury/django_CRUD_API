@@ -50,6 +50,4 @@
  ### DELETE API call from Postman to delete a specific note from the database. 
 ![image](https://github.com/maksudchowdhury/django_CRUD_API/assets/45464612/390375be-fce0-472e-a7b2-0dd92a4d3f6d)
 
-  
-![Picture1](https://github.com/maksudchowdhury/django_CRUD_API/assets/45464612/e0b45c7c-b769-4c30-8429-dc4185687bf1)
 
