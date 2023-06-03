@@ -1,0 +1,14 @@
+
+<form method="POST" action ="{% url 'saveNote' %}"  >
+    {% csrf_token %}
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="title" ><h5 class="mb-0" style="font-weight: 400;">&emsp;Title&emsp;&emsp;</h5></span>
+        <input name="noteTitle" type="text" class="form-control" aria-label="Note Title" aria-describedby="inputGroup-sizing-sm" style="font-family:'Arial Narrow Bold', sans-serif;font-size:20px">
+    </div>
+
+    <div class="mb-3">
+     
+        <textarea name="noteDescription" class="form-control" placeholder="Write down whatever amazed you today" id="noteID" style="height: 300px"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Jot Down</button>
+  </form>
