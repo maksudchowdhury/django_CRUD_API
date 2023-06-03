@@ -2,7 +2,7 @@
 <h2>This is a django notepad application which has a database where CRUD operations take place through external API calls</h2>
 
 <h3>Starting the pipenv shell (virtual environment)</h3>
-![image](https://github.com/maksudchowdhury/django_CRUD_API/assets/45464612/88b62ad4-f26a-45f9-bd7d-72f4897cd480)
+![image](https://github.com/maksudchowdhury/django_CRUD_API/assets/45464612/dfae7f48-32e4-4340-b47e-74d720a5a6d1)
 
 <br>
 <h3>Required packages (provided as requirements.txt)</h3>
