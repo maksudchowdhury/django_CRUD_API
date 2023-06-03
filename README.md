@@ -14,7 +14,7 @@
 ![image](https://github.com/maksudchowdhury/django_CRUD_API/assets/45464612/eaef8ca6-aa8e-499c-9716-447f3b9bda1f)
 
   
- ### ER diagram generation using django’s grap_models command (provided as erd.svg) 
+ ### ER diagram generation using django’s graph_models command (provided as erd.svg) 
 ![image](https://github.com/maksudchowdhury/django_CRUD_API/assets/45464612/2dc329ab-0978-4337-a107-253bdf3739ad)
 
   
