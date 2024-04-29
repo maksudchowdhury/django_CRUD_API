@@ -1,0 +1,70 @@
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">action</th>
+      <th scope="col">API path</th>
+      <th scope="col">Method</th>
+      <th scope="col">URL</th>
+      <th scope="col">Remarks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Get all notes</td>
+      <td>~/api/getNotes/</td>
+      <td><b>GET</b></td>
+      <td>
+        <a href="https://maksud.xyz/notes/api/getNotes/">Get all notes</a>
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <th scope="row">2</th>
+      <td>Get a specific Note</td>
+      <td>~/api/getOneNote/&lt;int:serial&gt;</td>
+      <td><b>GET</b></td>
+      <td>
+        <a href="https://maksud.xyz/notes/api/getOneNote/1">Get the 1st Note</a>
+      </td>
+      <td>use note's serial no.</td>
+    </tr>
+
+    <tr>
+      <th scope="row">3</th>
+      <td>Add a Note</td>
+      <td>~/api/addNotes/</td>
+      <td><b>POST</b></td>
+      <td><a href="https://maksud.xyz/notes/api/addNotes/">Add a Note</a></td>
+      <td>send JSON obj with 'title' and 'desc'</td>
+    </tr>
+
+    <tr>
+      <th scope="row">4</th>
+      <td>Add a Note</td>
+      <td>~/api/updateNote/&lt;int:serial&gt;</td>
+      <td><b>PUT/PATCH</b></td>
+      <td>
+        <a href="https://maksud.xyz/notes/api/updateNote/1"
+          >Update Full/Partial 1st note</a
+        >
+      </td>
+      <td>send JSON obj with 'title' or 'desc', and both for Full update</td>
+    </tr>
+
+    <tr>
+      <th scope="row">5</th>
+      <td>Delete a Note</td>
+      <td>~/api/deleteNote/&lt;int:serial&gt;</td>
+      <td><b>DELETE</b></td>
+      <td>
+        <a href="https://maksud.xyz/notes/api/deleteNote/<serial No>"
+          >Delete a note</a
+        >
+      </td>
+      <td>use a valid serial no. otherwise it won't work</td>
+    </tr>
+  </tbody>
+</table>
