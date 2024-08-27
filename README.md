@@ -4,6 +4,8 @@
 
 API call paths for this application
 
+<a href="https://link.maksud.xyz/ntmn" class="button primary">Live Demo</a> 
+
 "api/getNotes/" -- to get all the notes  
 "api/getOneNote/<int:serial>" -- to get information about one single note  
 "api/addNotes/" -- send json object of the note to add that in the database  
